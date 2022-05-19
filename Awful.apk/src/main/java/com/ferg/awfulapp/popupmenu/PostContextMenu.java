@@ -240,8 +240,8 @@ public class PostContextMenu extends BasePopupMenu<PostContextMenu.PostMenuActio
         COPY_URL(R.drawable.ic_share_dark, "Copy URL"),
         RAP_SHEET(R.drawable.ic_gavel_dark_24dp, "%s's rap sheet"),
         IGNORE_USER(R.drawable.ic_ignore_dark, "Ignore %s"),
-        SHOW_AVATAR(R.drawable.ic_visibility_dark, "Show avatar of %s"),
-        HIDE_AVATAR(R.drawable.ic_ignore_dark, "Hide avatar of %s");
+        SHOW_AVATAR(R.drawable.ic_visibility_dark, "Show this avatar (everywhere)"),
+        HIDE_AVATAR(R.drawable.ic_ignore_dark, "Hide this avatar (everywhere)");
 
         final int iconId;
         @NonNull
